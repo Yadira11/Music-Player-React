@@ -49,7 +49,7 @@ export class Home extends React.Component {
 				<li
 					className="shadow-none p-3 mb-5 bg-light rounded"
 					key={index}
-					onClick={() => this.play(this.state.currentIndex)}>
+					onClick={() => this.play(index)}>
 					<span>{index + 1 + " "}</span>
 					<span>{song.name}</span>
 				</li>
